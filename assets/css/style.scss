@@ -7,3 +7,17 @@
   border-radius: 10px;
   margin-bottom: 10px;
 }
+
+body, html {
+    background-color: #000;
+    color: #FFF;
+    font: 12px Menlo, "DejaVu Sans Mono", "Lucida Console", monospace;
+}
+
+.job-title pre {
+    color: #50E3C2;
+}
+
+.job-role pre {
+    color: #FF2E88;;
+}
