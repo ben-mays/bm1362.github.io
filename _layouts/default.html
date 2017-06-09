@@ -33,7 +33,7 @@
           values = [];
           $("rect.day", data).each(function () {
             console.log(this);
-            values.append({"date": $(this).attr('data-date'), 
+            values.push({"date": $(this).attr('data-date'), 
                            "count": $(this).attr('data-count')})
           });
           MG.data_graphic({
