@@ -21,7 +21,7 @@
         <p>Email: <a href="mailto: ben@eastside.io">ben@eastside.io</a><br/>
            Keybase: <a href="https://keybase.io/bmays">keybase.io/bmays</a><br/>
            Github: @ben-mays</p><br/>
-        <div class="graph"></div>
+        <div id="graph"></div>
       </header>
       
       <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.0/d3.min.js' charset='utf-8'></script>
@@ -36,13 +36,14 @@
             values.push({"date": $(this).attr('data-date'), 
                            "count": $(this).attr('data-count')})
           });
+          console.log(values)
           MG.data_graphic({
             title: "Commits",
             description: "Commits over Time",
             data: values,
             width: 250,
             height: 250,
-            target: ".graph",
+            target: "#graph",
             x_accessor: "date",
             y_accessor: "commits",
           });
