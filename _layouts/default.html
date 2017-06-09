@@ -39,14 +39,10 @@
           console.log(JSON.stringify(values))
           MG.data_graphic({
             title: "Commits",
-            description: "Commits over Time",
             data: values,
             full_width: true,
-            interpolate: d3.curveLinear,
             height: 300,
-            chart_type: "point",
             target: "#graph",
-            color: '#50E3C2',
             x_accessor: "date",
             y_accessor: "count",
           });
