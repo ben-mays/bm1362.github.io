@@ -62,7 +62,8 @@
           console.log(JSON.stringify(weeklyValues));
           MG.data_graphic({
             title: "Commits",
-            data: monthlyValues,
+            data: [dailyValues, weeklyValues, monthlyValues],
+            area: false,
             full_width: true,
             height: 300,
             target: "#graph",
