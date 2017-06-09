@@ -1,8 +1,7 @@
 # Benjamin Mays
 
-New York City, New York - Willing to relocate
-
-ben@eastside.io \t 512-216-4277
+New York City, New York - Willing to relocate <br/>
+ben@eastside.io <br/> 512-216-4277
 <hr/>
 
 ## Summary
