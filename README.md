@@ -6,13 +6,13 @@ Experienced building web applications and distributed systems with pretty much e
 
 #### SOUNDCLOUD, NEW YORK CITY, NY
 
-Backend Engineer, Apr 2017 - Present
+##### Backend Engineer, Apr 2017 - Present
 
 I've recently joined to help shore up the Payments infrastructure tean. We are responsible for all state and systems related to subscriptions, tracks behind the paywall and integrations with our payment processors around the world. Our systems are a mix of Scala and Clojure, which regularly see a load of 10k-20k RPS and are business critical.
 
 #### QUARTET HEALTH, NEW YORK CITY, NY
 
-Platform Engineer, Dec 2015 – Apr 2017
+##### Platform Engineer, Dec 2015 – Apr 2017
 
 I was the sole engineer of most of the backend web services for most of 2016. I helped flesh out metrics aggregation (New Relic at first, Grafana and InfluxDb; finally an ELK stack), alarming/oncall rotations, nightly stakeholder report generation, automated deployments, general engineering process things (post mortems, hiring, deployment schedules, etc) and many other mission critical pieces as we scaled our team post-series B.
 
@@ -25,7 +25,7 @@ I built a few key peices of our inital technology and led an initiative or two; 
 
 #### FREELANCE
 
-Software Engineer, Jul 2015 – Jan 2016
+##### Software Engineer, Jul 2015 – Jan 2016
 
 Spent some time traveling and freelancing for startups doing systems architecture and backend engineering. Worked on a few projects:
 * a platform for educators to create interactive content for class rooms. (Java/Angular) 
@@ -34,7 +34,7 @@ Spent some time traveling and freelancing for startups doing systems architectur
 
 #### AMAZON WEB SERVICES, SEATTLE, WA
 
-Software Development Engineer, May 2013 – Jul 2015
+##### Software Development Engineer, May 2013 – Jul 2015
 
 I worked in Amazon Web Services on the Elastic Block Store (EBS) service building distributed systems and web services at scale. Helped architect complex solutions to distributed systems, built and maintained critical control plane services to orchestrate state in AWS backend services. 
 
@@ -49,4 +49,4 @@ collection service that re-drove state changes in the fleet. Contributed to the 
 ## Education
 
 #### TEXAS STATE UNIVERSITY, SAN MARCOS, TX
-BS in Computer Science, Cum Laude, May 2013
+##### BS in Computer Science, Cum Laude, May 2013
