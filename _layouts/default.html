@@ -48,6 +48,7 @@
               d = new Date(data[i].date)
               weeklyValues.push({"date": d, "count": sum})
           }
+          console.log(JSON.stringify(weeklyValues);
           MG.data_graphic({
             title: "Commits",
             data: weeklyValues,
