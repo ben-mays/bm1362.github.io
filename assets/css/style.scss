@@ -69,12 +69,12 @@ svg {
     font-size: .8em !important;
 }
 
-.mg-year-marker {
+.mg-year-marker, .mg-chart-title {
   display: none;
 }
 
 .mg-histogram .axis text, .mg-x-axis text, .mg-y-axis text {
     fill: #000;
-    font-size: .7rem;
-    opacity: .5;
+    font-size: .7rem !important;
+    opacity: .5 !important;
 }
