@@ -68,3 +68,13 @@ svg {
     cursor: default;
     font-size: .8em !important;
 }
+
+.mg-year-marker {
+  display: none;
+}
+
+.mg-histogram .axis text, .mg-x-axis text, .mg-y-axis text {
+    fill: #000;
+    font-size: .7rem;
+    opacity: .5;
+}
