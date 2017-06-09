@@ -1,37 +1,59 @@
-## Welcome to GitHub Pages
+# Benjamin Mays
 
-You can use the [editor on GitHub](https://github.com/ben-mays/bm1362.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+New York City, New York - Willing to relocate
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+ben@eastside.io \t 512-216-4277
+<hr/>
 
-### Markdown
+## Summary
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Experienced building web applications and distributed systems with pretty much everything. Former AWS developer where I built and maintained large web services using Java, Clojure, Python, blood and sweat. Early technical member of a high growth startup where I learned some lessons on building teams and products.
 
-```markdown
-Syntax highlighted code block
+## Experience
 
-# Header 1
-## Header 2
-### Header 3
+#### SOUNDCLOUD, NEW YORK CITY, NY
 
-- Bulleted
-- List
+Backend Engineer, Apr 2017 - Present
 
-1. Numbered
-2. List
+I've recently joined to help shore up the Payments infrastructure tean. We are responsible for all state and systems related to subscriptions, tracks behind the paywall and integrations with our payment processors around the world. Our systems are a mix of Scala and Clojure, which regularly see a load of 10k-20k RPS and are business critical.
 
-**Bold** and _Italic_ and `Code` text
+#### QUARTET HEALTH, NEW YORK CITY, NY
 
-[Link](url) and ![Image](src)
-```
+Platform Engineer, Dec 2015 – Apr 2017
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+I was the sole engineer of most of the backend web services for most of 2016. I helped flesh out metrics aggregation (New Relic at first, Grafana and InfluxDb; finally an ELK stack), alarming/oncall rotations, nightly stakeholder report generation, automated deployments, general engineering process things (post mortems, hiring, deployment schedules, etc) and many other mission critical pieces as we scaled our team post-series B.
 
-### Jekyll Themes
+I built a few key peices of our inital technology and led an initiative or two; my contributions were:
+* SmartMatch, which was a recommendation engine for finding the best behavioral health care specific to you.
+* Migrated off of an existing monolithic REST API to a query-driven (think GraphQL) API written in Clojure (and using Datomic) that unblocked our application developers and allowed them to move faster. In retrospect, we probably should've just used GraphQL on top of our existing Django models but moving to the JVM allowed us to unify our system with our Scala/Spark data ingestion pipeline.
+* Built an automated state machine system for long-lived business workflows. This alone probably saved 1000s of case worker hours to date and drive Quartet's patient intake process.
+* My team eventually grew to 6 and became the _Core Platform_. We were responsible for architecting our central application data store, asynchronous background processes, orchestrating distributed state, and pretty much everything on the backend.
+* Did a tour of duty as the technical lead on a cross functional team, marshalling a overhaul of our insurance modeling and intake process so we could improve our matching algorithm. We were seeing high rates of patient rejection due to insurance and decided to invest in accurately model the very complex behavioral health insurance market place.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ben-mays/bm1362.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### FREELANCE
 
-### Support or Contact
+Software Engineer, Jul 2015 – Jan 2016
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Spent some time traveling and freelancing for startups doing systems architecture and backend engineering. Worked on a few projects:
+* a platform for educators to create interactive content for class rooms. (Java/Angular) 
+* a RoR backend for generating complex labor forecasts, based on a massive ETL from DoL and other data sources.
+
+
+#### AMAZON WEB SERVICES, SEATTLE, WA
+
+Software Development Engineer, May 2013 – Jul 2015
+
+I worked in Amazon Web Services on the Elastic Block Store (EBS) service building distributed systems and web services at scale. Helped architect complex solutions to distributed systems, built and maintained critical control plane services to orchestrate state in AWS backend services. 
+
+Beyond the day to day, I had worked on a few other initatives:
+
+* Inherited the volume metering system, a critical system responsible for collating volume usage from disparate systems and producing a per-customer record for upstream billing teams. The system had to run for each hour and was required to submit billing data daily. At the time, the system had both scaling and correctness issues that cost me my youth and resulted in a complete redesign.
+* Proactively built a system to continually test the volume control plane from upstream consumers, in all AWS regions. The project had some growing pains, but ultimately led us to identify regressions and bugs that were externally facing.
+* Ran a daily meeting where the EBS Control Plane gathered to review and discuss all of our metrics and dashboards.
+* Part of a new team that was created to design and launch a key-value storage server-service, built on top of a replicated log and Paxos. Built and launched the control plane for the service, solely responsible for the state management service, a data migration service and a garbage
+collection service that re-drove state changes in the fleet. Contributed to the design and implementation of many parts of the service, at all levels.
+
+## Education
+
+#### TEXAS STATE UNIVERSITY, SAN MARCOS, TX
+BS in Computer Science, Cum Laude, May 2013
