@@ -30,16 +30,28 @@
       <script>
         var data = $.get("contribution-data.svg",  function( data ) {
           console.log(data);
-          values = [];
+          dailyValues = [];
+          weeklyValues = [];
           $("rect.day", data).each(function () {
             console.log(this);
-            values.push({"date": new Date($(this).attr('data-date')), 
+            dailyValues.push({"date": new Date($(this).attr('data-date')), 
                            "count": $(this).attr('data-count')})
           });
+          // raw agg for the week
+          for(var i = 0; i < data.length; i+=7) {
+              var sum = 0;
+              for(var j = i; j < i + 7; j++) {
+                  if(data[j]) {
+                      sum += parseInt(data[j].count);
+                  }
+              }
+              d = new Date(data[i].date)
+              weeklyValues.push({"date": d, "count": sum})
+          }
           console.log(JSON.stringify(values))
           MG.data_graphic({
             title: "Commits",
-            data: values,
+            data: weeklyValues,
             full_width: true,
             height: 300,
             target: "#graph",
