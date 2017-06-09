@@ -28,17 +28,25 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.11.0/metricsgraphics.min.js"></script>
       <script>
-        var data = $.get("contribution-data.svg");
-        MG.data_graphic({
-          title: "Commits",
-          description: "Commits over Time",
-          data: [],
-          width: 250,
-          height: 250,
-          target: ".graph",
-          x_accessor: "date",
-          y_accessor: "commits",
-        });
+        var data = $.get("contribution-data.svg",  function( data ) {
+          console.log(data);
+          values = [];
+          $("rect.day", data).each(function () {
+            console.log(this);
+            values.append({"date": $(this).attr('data-date'), 
+                           "count": $(this).attr('data-count')}
+          });
+          MG.data_graphic({
+            title: "Commits",
+            description: "Commits over Time",
+            data: values,
+            width: 250,
+            height: 250,
+            target: ".graph",
+            x_accessor: "date",
+            y_accessor: "commits",
+          });
+        }
       </script>
       
       <section>
