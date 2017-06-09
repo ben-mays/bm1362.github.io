@@ -2,3 +2,8 @@
 ---
 
 @import "{{ site.theme }}";
+
+#profile-img {
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
