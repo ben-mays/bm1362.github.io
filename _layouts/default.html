@@ -28,16 +28,16 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.11.0/metricsgraphics.min.js"></script>
       <script>
+        var data = $.get("contribution-data.svg");
         MG.data_graphic({
-          title: "UFO Sightings",
-          description: "Yearly UFO sightings from 1945 to 2010.",
-          data: JSON.parse(document.querySelector('.data textarea').value),
-          markers: [{'year': 1964, 'label': '"The Creeping Terror" released'}],
+          title: "Commits",
+          description: "Commits over Time",
+          data: [],
           width: document.querySelector('#header').width,
           height: 250,
           target: "#graph",
-          x_accessor: "year",
-          y_accessor: "sightings",
+          x_accessor: "date",
+          y_accessor: "commits",
         });
       </script>
       
