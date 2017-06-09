@@ -1,9 +1,3 @@
-# Benjamin Mays
-
-New York City, New York - Willing to relocate <br/>
-ben@eastside.io <br/> 512-216-4277
-<hr/>
-
 ## Summary
 
 Experienced building web applications and distributed systems with pretty much everything. Former AWS developer where I built and maintained large web services using Java, Clojure, Python, blood and sweat. Early technical member of a high growth startup where I learned some lessons on building teams and products.
