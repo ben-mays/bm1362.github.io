@@ -38,14 +38,14 @@
                            "count": $(this).attr('data-count')})
           });
           // raw agg for the week
-          for(var i = 0; i < data.length; i+=7) {
+          for(var i = 0; i < dailyValues.length; i+=7) {
               var sum = 0;
               for(var j = i; j < i + 7; j++) {
-                  if(data[j]) {
-                      sum += parseInt(data[j].count);
+                  if(dailyValues[j]) {
+                      sum += parseInt(dailyValues[j].count);
                   }
               }
-              d = new Date(data[i].date)
+              d = new Date(dailyValues[i].date)
               weeklyValues.push({"date": d, "count": sum})
           }
           console.log(JSON.stringify(weeklyValues));
