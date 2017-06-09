@@ -34,7 +34,7 @@
           $("rect.day", data).each(function () {
             console.log(this);
             values.append({"date": $(this).attr('data-date'), 
-                           "count": $(this).attr('data-count')}
+                           "count": $(this).attr('data-count')})
           });
           MG.data_graphic({
             title: "Commits",
