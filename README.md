@@ -8,15 +8,15 @@ Experienced building web applications and distributed systems with pretty much e
 
 ##### Backend Engineer, Apr 2017 - Present
 
-I've recently joined to help shore up the Payments infrastructure tean. We are responsible for all state and systems related to subscriptions, tracks behind the paywall and integrations with our payment processors around the world. Our systems are a mix of Scala and Clojure, which regularly see a load of 10k-20k RPS and are business critical.
+I've recently joined to help shore up the Payments infrastructure team. We are responsible for all state and systems related to subscriptions, tracks behind the paywall and integrations with our payment processors around the world. Our systems are a mix of Scala and Clojure, which regularly see a load of 10k-20k RPS and are business critical.
 
 #### QUARTET HEALTH, NEW YORK CITY, NY
 
 ##### Platform Engineer, Dec 2015 – Apr 2017
 
-I was the sole engineer of most of the backend web services for most of 2016. I helped flesh out metrics aggregation (New Relic at first, Grafana and InfluxDb; finally an ELK stack), alarming/oncall rotations, nightly stakeholder report generation, automated deployments, general engineering process things (post mortems, hiring, deployment schedules, etc) and many other mission critical pieces as we scaled our team post-series B.
+I was the sole engineer of most of the backend web services for most of 2016. I helped flesh out metrics aggregation (New Relic at first, Grafana and InfluxDb; finally an ELK stack), alarming/oncall rotations, nightly stakeholder report generation, automated deployments, general engineering house keeping (post mortems, hiring, deployment schedules, etc) and many other mission critical pieces as we scaled our team post-series B.
 
-I built a few key peices of our inital technology and led an initiative or two; my contributions were:
+I built a few key pieces of our inital technology and led an initiative or two; my contributions were:
 * SmartMatch, which was a recommendation engine for finding the best behavioral health care specific to you.
 * Migrated off of an existing monolithic REST API to a query-driven (think GraphQL) API written in Clojure (and using Datomic) that unblocked our application developers and allowed them to move faster. In retrospect, we probably should've just used GraphQL on top of our existing Django models but moving to the JVM allowed us to unify our system with our Scala/Spark data ingestion pipeline.
 * Built an automated state machine system for long-lived business workflows. This alone probably saved 1000s of case worker hours to date and drive Quartet's patient intake process.
