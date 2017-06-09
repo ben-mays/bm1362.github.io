@@ -47,9 +47,9 @@ a:hover {
   stroke: #50E3C2;
 }
 
-#graph.mg-area1-color, #graph.mg-line1-color {
-  fill: #FF2E88;
-  stroke: #FF2E88;
+.mg-area1-color, .mg-line1-color {
+  fill: #FF2E88 !important;
+  stroke: #FF2E88 !important;
 }
 
 svg {
