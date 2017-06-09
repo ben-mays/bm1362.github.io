@@ -55,6 +55,28 @@ a:hover {
   stroke: #FF2E88 !important;
 }
 
+.mg-area2-color {
+  fill: #07ffcc !important;
+}
+
+.mg-line-2-color {
+  stroke: #07ffcc !important;
+}
+
+.mg-area3-color {
+  fill: #65e1fd !important;
+}
+
+.mg-line3-color {
+    stroke: #65e1fd !important;
+}
+
+.mg-active-datapoint-container {
+    fill: #50E3C2;
+    font-size: .7rem !important;
+    opacity: .5 !important;
+}
+
 svg {
   fill: #FFF;
   stroke: #FFF;
