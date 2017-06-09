@@ -33,7 +33,7 @@
           values = [];
           $("rect.day", data).each(function () {
             console.log(this);
-            values.push({"date": $(this).attr('data-date'), 
+            values.push({"date": new Date($(this).attr('data-date')), 
                            "count": $(this).attr('data-count')})
           });
           console.log(values)
@@ -45,7 +45,7 @@
             height: 250,
             target: "#graph",
             x_accessor: "date",
-            y_accessor: "commits",
+            y_accessor: "count",
           });
         });
       </script>
