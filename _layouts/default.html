@@ -36,7 +36,7 @@
             values.push({"date": new Date($(this).attr('data-date')), 
                            "count": $(this).attr('data-count')})
           });
-          console.log(values)
+          console.log(JSON.stringify(values))
           MG.data_graphic({
             title: "Commits",
             description: "Commits over Time",
