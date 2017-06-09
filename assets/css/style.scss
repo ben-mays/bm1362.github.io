@@ -51,7 +51,7 @@ a:hover {
   fill: #FF2E88 !important;
 }
 
-.mg-line1-color {
+.mg-line1-color, .mg-hover-line1-color {
   stroke: #FF2E88 !important;
 }
 
@@ -59,7 +59,7 @@ a:hover {
   fill: #07ffcc !important;
 }
 
-.mg-line-2-color {
+.mg-line-2-color, .mg-hover-line2-color {
   stroke: #07ffcc !important;
 }
 
@@ -67,12 +67,11 @@ a:hover {
   fill: #65e1fd !important;
 }
 
-.mg-line3-color {
+.mg-line3-color, .mg-hover-line3-color {
     stroke: #65e1fd !important;
 }
 
 .mg-active-datapoint-container * {
-    fill: #50E3C2 !important;
     font-size: .8rem !important;
     opacity: 1.0 !important;
 }
