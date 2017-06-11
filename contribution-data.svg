@@ -477,6 +477,9 @@
           <rect class="day" width="10" height="10" x="-39" y="60" fill="#196127" data-count="45" data-date="2017-06-09"/>
           <rect class="day" width="10" height="10" x="-39" y="72" fill="#ebedf0" data-count="0" data-date="2017-06-10"/>
       </g>
+      <g transform="translate(689, 0)">
+          <rect class="day" width="10" height="10" x="-40" y="0" fill="#ebedf0" data-count="0" data-date="2017-06-11"/>
+      </g>
       <text x="13" y="-10" class="month">Jun</text>
       <text x="61" y="-10" class="month">Jul</text>
       <text x="121" y="-10" class="month">Aug</text>
