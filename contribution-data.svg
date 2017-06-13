@@ -466,11 +466,11 @@
           <rect class="day" width="10" height="10" x="-38" y="36" fill="#7bc96f" data-count="5" data-date="2017-06-07"/>
           <rect class="day" width="10" height="10" x="-38" y="48" fill="#196127" data-count="74" data-date="2017-06-08"/>
           <rect class="day" width="10" height="10" x="-38" y="60" fill="#196127" data-count="45" data-date="2017-06-09"/>
-          <rect class="day" width="10" height="10" x="-38" y="72" fill="#ebedf0" data-count="0" data-date="2017-06-10"/>
+          <rect class="day" width="10" height="10" x="-38" y="72" fill="#7bc96f" data-count="4" data-date="2017-06-10"/>
       </g>
       <g transform="translate(676, 0)">
           <rect class="day" width="10" height="10" x="-39" y="0" fill="#ebedf0" data-count="0" data-date="2017-06-11"/>
-          <rect class="day" width="10" height="10" x="-39" y="12" fill="#7bc96f" data-count="7" data-date="2017-06-12"/>
+          <rect class="day" width="10" height="10" x="-39" y="12" fill="#239a3b" data-count="9" data-date="2017-06-12"/>
           <rect class="day" width="10" height="10" x="-39" y="24" fill="#ebedf0" data-count="0" data-date="2017-06-13"/>
       </g>
       <text x="13" y="-10" class="month">Jun</text>
