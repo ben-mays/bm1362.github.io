@@ -477,6 +477,9 @@
           <rect class="day" width="10" height="10" x="-39" y="60" fill="#ebedf0" data-count="0" data-date="2017-06-16"/>
           <rect class="day" width="10" height="10" x="-39" y="72" fill="#ebedf0" data-count="0" data-date="2017-06-17"/>
       </g>
+      <g transform="translate(689, 0)">
+          <rect class="day" width="10" height="10" x="-40" y="0" fill="#ebedf0" data-count="0" data-date="2017-06-18"/>
+      </g>
       <text x="13" y="-10" class="month">Jun</text>
       <text x="49" y="-10" class="month">Jul</text>
       <text x="109" y="-10" class="month">Aug</text>
@@ -489,6 +492,7 @@
       <text x="469" y="-10" class="month">Mar</text>
       <text x="517" y="-10" class="month">Apr</text>
       <text x="577" y="-10" class="month">May</text>
+      <text x="625" y="-10" class="month">Jun</text>
     <text text-anchor="start" class="wday" dx="-14" dy="8" style="display: none;">Sun</text>
     <text text-anchor="start" class="wday" dx="-14" dy="20">Mon</text>
     <text text-anchor="start" class="wday" dx="-14" dy="32" style="display: none;">Tue</text>
