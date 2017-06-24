@@ -474,7 +474,8 @@
           <rect class="day" width="10" height="10" x="-39" y="24" fill="#7bc96f" data-count="6" data-date="2017-06-20"/>
           <rect class="day" width="10" height="10" x="-39" y="36" fill="#c6e48b" data-count="2" data-date="2017-06-21"/>
           <rect class="day" width="10" height="10" x="-39" y="48" fill="#c6e48b" data-count="1" data-date="2017-06-22"/>
-          <rect class="day" width="10" height="10" x="-39" y="60" fill="#ebedf0" data-count="0" data-date="2017-06-23"/>
+          <rect class="day" width="10" height="10" x="-39" y="60" fill="#c6e48b" data-count="1" data-date="2017-06-23"/>
+          <rect class="day" width="10" height="10" x="-39" y="72" fill="#ebedf0" data-count="0" data-date="2017-06-24"/>
       </g>
       <text x="37" y="-10" class="month">Jul</text>
       <text x="97" y="-10" class="month">Aug</text>
