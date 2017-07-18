@@ -470,8 +470,8 @@
       </g>
       <g transform="translate(676, 0)">
           <rect class="day" width="10" height="10" x="-39" y="0" fill="#ebedf0" data-count="0" data-date="2017-07-16"/>
-          <rect class="day" width="10" height="10" x="-39" y="12" fill="#c6e48b" data-count="1" data-date="2017-07-17"/>
-          <rect class="day" width="10" height="10" x="-39" y="24" fill="#ebedf0" data-count="0" data-date="2017-07-18"/>
+          <rect class="day" width="10" height="10" x="-39" y="12" fill="#ebedf0" data-count="0" data-date="2017-07-17"/>
+          <rect class="day" width="10" height="10" x="-39" y="24" fill="#c6e48b" data-count="1" data-date="2017-07-18"/>
       </g>
       <text x="13" y="-10" class="month">Jul</text>
       <text x="49" y="-10" class="month">Aug</text>
