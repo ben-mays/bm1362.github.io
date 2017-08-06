@@ -462,7 +462,7 @@
       <g transform="translate(663, 0)">
           <rect class="day" width="10" height="10" x="-38" y="0" fill="#c6e48b" data-count="1" data-date="2017-07-23"/>
           <rect class="day" width="10" height="10" x="-38" y="12" fill="#c6e48b" data-count="2" data-date="2017-07-24"/>
-          <rect class="day" width="10" height="10" x="-38" y="24" fill="#7bc96f" data-count="4" data-date="2017-07-25"/>
+          <rect class="day" width="10" height="10" x="-38" y="24" fill="#c6e48b" data-count="3" data-date="2017-07-25"/>
           <rect class="day" width="10" height="10" x="-38" y="36" fill="#ebedf0" data-count="0" data-date="2017-07-26"/>
           <rect class="day" width="10" height="10" x="-38" y="48" fill="#ebedf0" data-count="0" data-date="2017-07-27"/>
           <rect class="day" width="10" height="10" x="-38" y="60" fill="#ebedf0" data-count="0" data-date="2017-07-28"/>
@@ -471,7 +471,14 @@
       <g transform="translate(676, 0)">
           <rect class="day" width="10" height="10" x="-39" y="0" fill="#ebedf0" data-count="0" data-date="2017-07-30"/>
           <rect class="day" width="10" height="10" x="-39" y="12" fill="#c6e48b" data-count="1" data-date="2017-07-31"/>
-          <rect class="day" width="10" height="10" x="-39" y="24" fill="#ebedf0" data-count="0" data-date="2017-08-01"/>
+          <rect class="day" width="10" height="10" x="-39" y="24" fill="#c6e48b" data-count="1" data-date="2017-08-01"/>
+          <rect class="day" width="10" height="10" x="-39" y="36" fill="#ebedf0" data-count="0" data-date="2017-08-02"/>
+          <rect class="day" width="10" height="10" x="-39" y="48" fill="#c6e48b" data-count="2" data-date="2017-08-03"/>
+          <rect class="day" width="10" height="10" x="-39" y="60" fill="#c6e48b" data-count="1" data-date="2017-08-04"/>
+          <rect class="day" width="10" height="10" x="-39" y="72" fill="#c6e48b" data-count="2" data-date="2017-08-05"/>
+      </g>
+      <g transform="translate(689, 0)">
+          <rect class="day" width="10" height="10" x="-40" y="0" fill="#c6e48b" data-count="1" data-date="2017-08-06"/>
       </g>
       <text x="25" y="-10" class="month">Aug</text>
       <text x="73" y="-10" class="month">Sep</text>
