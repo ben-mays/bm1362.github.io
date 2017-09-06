@@ -23,8 +23,6 @@ My personal responsibilities were:
 
 I joined to help shore up the Payments infrastructure team. We were responsible for all state and systems related to subscriptions, tracks behind the paywall and integrations with our payment processors around the world. Our systems were a mix of Scala and Clojure, which regularly see a load of 10k-20k RPS.
 
-I was only at SoundCloud for 3 months and left the New York office to return to Quartet Health.
-
 #### QUARTET HEALTH, NEW YORK CITY, NY
 
 ##### Platform Engineer, Dec 2015 – Apr 2017
