@@ -7,15 +7,15 @@ Experience building web applications and distributed systems with pretty much ev
 
 ##### Platform Engineer, Dec 2015 – Present
 
-I was the sole engineer of most of the backend web services for most of 2016. I helped flesh out metrics aggregation (New Relic at first, Grafana and InfluxDb; finally an ELK stack), alarming/oncall rotations, nightly stakeholder report generation, automated deployments, general engineering house keeping (post mortems, hiring, deployment schedules, etc) and many other mission critical pieces as we scaled our team post-series B.
+I was the sole engineer of most of the backend web services for most of 2016. I helped flesh out metrics aggregation (New Relic at first, Grafana and InfluxDb; finally an ELK stack), alarming/oncall rotations, nightly stakeholder report generation, automated deployments, general engineering house keeping (postmortems, hiring, deployment schedules, etc) and many other mission critical pieces as we scaled our team post-series B.
 
-I built a few key pieces of our inital technology and led an initiative or two; my contributions were:
+I built a few key pieces of our initial technology and led an initiative or two; my contributions were:
 
 * SmartMatch, which was a recommendation engine for finding the best behavioral health care specific to you.
 * Migrated off of an existing monolithic REST API to a query-driven (think GraphQL) API written in Clojure (and using Datomic) that unblocked our application developers and allowed them to move faster. In retrospect, we probably should've just used GraphQL on top of our existing Django models but moving to the JVM allowed us to unify our system with our Scala/Spark data ingestion pipeline.
 * Built an automated state machine system for long-lived business workflows. This alone has saved 1000s of case worker hours and drives Quartet's patient intake process.
 * My team eventually grew to 6 and became the _Core Platform_. We were responsible for architecting our central application data store, asynchronous background processes, orchestrating distributed state, and pretty much everything on the backend.
-* Did a tour of duty as the technical lead on a cross functional team, marshalling a overhaul of our insurance modeling and intake process so we could improve our matching algorithm. We were seeing high rates of patient rejection due to insurance and decided to invest in accurately model the very complex behavioral health insurance market place.
+* Did a tour of duty as the technical lead on a cross functional team, marshaling a overhaul of our insurance modeling and intake process so we could improve our matching algorithm. We were seeing high rates of patient rejection due to insurance and decided to invest in accurately model the very complex behavioral health insurance market place.
 
 Currently migrating our core services to a CQRS architecture. We're building a new domain-driven API powered by a real-time replicator from our existing Datomic database to Postgres.
 
