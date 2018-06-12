@@ -3,6 +3,14 @@ Experience building web applications and distributed systems with pretty much ev
 
 ## Experience
 
+#### UBER, SAN FRANCISCO, CA
+
+##### Senior Software Engineer, Nov 2017 - Present
+
+I recently joined Uber as the first backend engineer on the mobile platform. Our goal is to build world-class tooling, frameworks and services in support of hundreds of iOS and Android developers making many changes everyday.
+
+Currently building out automated performance testing and regression detection for all of our mobile applications on both iOS and Android. 
+
 #### QUARTET HEALTH, NEW YORK CITY, NY
 
 ##### Core APIs, July 2017 – Oct 2017
